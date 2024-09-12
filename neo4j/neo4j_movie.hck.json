@@ -1,0 +1,911 @@
+{
+    "modelName": "New model",
+    "collections": [
+        {
+            "collectionName": "Person",
+            "type": "object",
+            "properties": [
+                {
+                    "code": "",
+                    "name": "born",
+                    "isActivated": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "mode": "integer",
+                    "sample": 1996,
+                    "GUID": "ea71003c-12ad-4f23-bd9b-e696ee73dc23",
+                    "required": false,
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "name",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "cb0bceca-9bb1-4225-a53b-feaba387e686",
+                    "required": true,
+                    "sample": "James Thompson",
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "GUID": "d9c12104-2ce6-467f-9237-e8688a44eb7c",
+                "properties": []
+            },
+            "isActivated": true,
+            "additionalProperties": true,
+            "collectionUsers": [],
+            "GUID": "577825cd-19ab-4790-b173-a61db2d05e71",
+            "bucketId": "31c8a589-e8ff-4f3e-a9b8-776ecaac0354",
+            "code": "",
+            "constraint": [],
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "Director",
+            "type": "object",
+            "properties": [
+                {
+                    "code": "",
+                    "name": "born",
+                    "isActivated": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "mode": "integer",
+                    "sample": 1967,
+                    "GUID": "29cc6775-9989-4596-907d-1e9b24c814f2",
+                    "required": true,
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "name",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "f3ce5ec1-4df6-4380-8a8b-e03a0d11d8aa",
+                    "required": true,
+                    "sample": "Penny Marshall",
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "GUID": "efbcc956-9690-418a-9248-e47cdc6e476f",
+                "properties": []
+            },
+            "isActivated": true,
+            "additionalProperties": true,
+            "collectionUsers": [],
+            "GUID": "c81c9407-7593-4101-b96d-df9002fd31d3",
+            "bucketId": "31c8a589-e8ff-4f3e-a9b8-776ecaac0354",
+            "code": "",
+            "constraint": [],
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "Movie",
+            "type": "object",
+            "properties": [
+                {
+                    "code": "",
+                    "name": "tagline",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "65d2c24b-e0c2-447a-9f1e-a8466fd444ce",
+                    "required": false,
+                    "sample": "Once in a lifetime you get a chance to do something different.",
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "title",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "f4b4c8c4-9e5a-423b-b8da-97b5c475c034",
+                    "required": true,
+                    "sample": "A League of Their Own",
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "released",
+                    "isActivated": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "mode": "integer",
+                    "sample": 2012,
+                    "GUID": "65f3d343-1bd2-4ed9-85b9-2befdec94609",
+                    "required": true,
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "GUID": "f6214cb0-17dd-46ef-9977-9debc1652b9c",
+                "properties": []
+            },
+            "isActivated": true,
+            "additionalProperties": true,
+            "collectionUsers": [],
+            "GUID": "70760b5e-f7b1-4e48-875f-aadc33759e03",
+            "bucketId": "31c8a589-e8ff-4f3e-a9b8-776ecaac0354",
+            "code": "",
+            "constraint": [],
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "Actor",
+            "type": "object",
+            "properties": [
+                {
+                    "code": "",
+                    "name": "born",
+                    "isActivated": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "mode": "integer",
+                    "sample": 1996,
+                    "GUID": "822d2b9f-ea3a-477c-8151-d4cfa77d7dc4",
+                    "required": false,
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "name",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "d409aec9-ce27-48ed-9932-96cefad9cfc5",
+                    "required": true,
+                    "sample": "Lori Petty",
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "GUID": "6ba66179-12a9-45e9-bd5e-9b933e1c07a6",
+                "properties": []
+            },
+            "isActivated": true,
+            "additionalProperties": true,
+            "collectionUsers": [],
+            "GUID": "088143b3-2a95-4352-b4f1-c4936901639e",
+            "bucketId": "31c8a589-e8ff-4f3e-a9b8-776ecaac0354",
+            "code": "",
+            "constraint": [],
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        }
+    ],
+    "buckets": [
+        {
+            "name": "movie",
+            "type": "bucket",
+            "collectionIds": [
+                "577825cd-19ab-4790-b173-a61db2d05e71",
+                "c81c9407-7593-4101-b96d-df9002fd31d3",
+                "70760b5e-f7b1-4e48-875f-aadc33759e03",
+                "088143b3-2a95-4352-b4f1-c4936901639e"
+            ],
+            "backgroundColor": {
+                "r": 216,
+                "g": 0,
+                "b": 115,
+                "a": 1
+            },
+            "show": true,
+            "isActivated": true,
+            "indexes": [],
+            "GUID": "31c8a589-e8ff-4f3e-a9b8-776ecaac0354",
+            "hackoladeMeta": {},
+            "code": "",
+            "addFieldsToBucket": true,
+            "isPlugin": true
+        }
+    ],
+    "views": [],
+    "relationships": [
+        {
+            "name": "ACTED_IN",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "isActivated": true,
+            "childCardinality": "1",
+            "GUID": "e7aaafb2-3e2a-4f88-a9d4-3dc0338f2b74",
+            "level": "entity",
+            "parentCollection": "088143b3-2a95-4352-b4f1-c4936901639e",
+            "childCollection": "70760b5e-f7b1-4e48-875f-aadc33759e03",
+            "bucketId": "31c8a589-e8ff-4f3e-a9b8-776ecaac0354",
+            "lineSize": 2,
+            "properties": [
+                {
+                    "code": "",
+                    "name": "roles",
+                    "isActivated": true,
+                    "properties": [
+                        {
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "primaryKey": false,
+                            "unique": false,
+                            "type": "string",
+                            "compositeKey": [
+                                "compositeNodeKey"
+                            ],
+                            "compositeNodeKey": false,
+                            "GUID": "e02f3f2b-5b1f-4b06-9d2b-0601275d250c",
+                            "arrayItem": true,
+                            "sample": "Emil",
+                            "error": {}
+                        }
+                    ],
+                    "primaryKey": false,
+                    "additionalItems": true,
+                    "uniqueItems": false,
+                    "unique": false,
+                    "childType": "list",
+                    "type": "array",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "caf80ff6-8b55-46cf-b90f-f2c2663d9eaf",
+                    "required": true,
+                    "error": {}
+                }
+            ]
+        },
+        {
+            "name": "ACTED_IN",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "isActivated": true,
+            "childCardinality": "1",
+            "GUID": "d4824003-ddf6-4573-ad73-b4048027ec94",
+            "level": "entity",
+            "parentCollection": "577825cd-19ab-4790-b173-a61db2d05e71",
+            "childCollection": "70760b5e-f7b1-4e48-875f-aadc33759e03",
+            "bucketId": "31c8a589-e8ff-4f3e-a9b8-776ecaac0354",
+            "lineSize": 2,
+            "properties": [
+                {
+                    "code": "",
+                    "name": "roles",
+                    "isActivated": true,
+                    "properties": [
+                        {
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "primaryKey": false,
+                            "unique": false,
+                            "type": "string",
+                            "compositeKey": [
+                                "compositeNodeKey"
+                            ],
+                            "compositeNodeKey": false,
+                            "GUID": "61512918-b35c-4eac-b0eb-770323eb1940",
+                            "arrayItem": true,
+                            "sample": "Emil",
+                            "error": {}
+                        }
+                    ],
+                    "primaryKey": false,
+                    "additionalItems": true,
+                    "uniqueItems": false,
+                    "unique": false,
+                    "childType": "list",
+                    "type": "array",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "8342060f-70ab-4580-a761-07cc80f5c7a6",
+                    "required": true,
+                    "error": {}
+                }
+            ]
+        },
+        {
+            "name": "ACTED_IN",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "isActivated": true,
+            "childCardinality": "1",
+            "GUID": "c831cc92-d90d-460a-ae23-1b9b0de5b7bd",
+            "level": "entity",
+            "parentCollection": "c81c9407-7593-4101-b96d-df9002fd31d3",
+            "childCollection": "70760b5e-f7b1-4e48-875f-aadc33759e03",
+            "bucketId": "31c8a589-e8ff-4f3e-a9b8-776ecaac0354",
+            "lineSize": 2,
+            "properties": [
+                {
+                    "code": "",
+                    "name": "roles",
+                    "isActivated": true,
+                    "properties": [
+                        {
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "primaryKey": false,
+                            "unique": false,
+                            "type": "string",
+                            "compositeKey": [
+                                "compositeNodeKey"
+                            ],
+                            "compositeNodeKey": false,
+                            "GUID": "222c900a-2b97-4927-b3dc-b8099bb9af56",
+                            "arrayItem": true,
+                            "sample": "Pfc. Louden Downey",
+                            "error": {}
+                        }
+                    ],
+                    "primaryKey": false,
+                    "additionalItems": true,
+                    "uniqueItems": false,
+                    "unique": false,
+                    "childType": "list",
+                    "type": "array",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "94149597-196e-4a84-984e-961e91c7609f",
+                    "required": true,
+                    "error": {}
+                }
+            ]
+        },
+        {
+            "name": "REVIEWED",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "isActivated": true,
+            "childCardinality": "1",
+            "GUID": "18894013-5d7b-43ea-b800-aaecdb4713ee",
+            "level": "entity",
+            "parentCollection": "577825cd-19ab-4790-b173-a61db2d05e71",
+            "childCollection": "70760b5e-f7b1-4e48-875f-aadc33759e03",
+            "bucketId": "31c8a589-e8ff-4f3e-a9b8-776ecaac0354",
+            "lineSize": 2,
+            "properties": [
+                {
+                    "code": "",
+                    "name": "summary",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "9c207c0b-7482-4b5e-91f7-a6ba7d941607",
+                    "required": true,
+                    "sample": "You had me at Jerry",
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "rating",
+                    "isActivated": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "mode": "integer",
+                    "sample": 100,
+                    "GUID": "a7200353-6f1c-4bf2-8206-73a3d8334c56",
+                    "required": true,
+                    "error": {}
+                }
+            ]
+        },
+        {
+            "name": "PRODUCED",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "isActivated": true,
+            "childCardinality": "1",
+            "GUID": "5c0e2d28-de66-4418-ba22-29ec91990b61",
+            "level": "entity",
+            "parentCollection": "577825cd-19ab-4790-b173-a61db2d05e71",
+            "childCollection": "70760b5e-f7b1-4e48-875f-aadc33759e03",
+            "bucketId": "31c8a589-e8ff-4f3e-a9b8-776ecaac0354",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "PRODUCED",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "isActivated": true,
+            "childCardinality": "1",
+            "GUID": "f664127e-3df1-4656-ae23-ca82f037f781",
+            "level": "entity",
+            "parentCollection": "c81c9407-7593-4101-b96d-df9002fd31d3",
+            "childCollection": "70760b5e-f7b1-4e48-875f-aadc33759e03",
+            "bucketId": "31c8a589-e8ff-4f3e-a9b8-776ecaac0354",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "WROTE",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "isActivated": true,
+            "childCardinality": "1",
+            "GUID": "fd858ab7-ec3f-416e-a7a5-93fbc496a266",
+            "level": "entity",
+            "parentCollection": "c81c9407-7593-4101-b96d-df9002fd31d3",
+            "childCollection": "70760b5e-f7b1-4e48-875f-aadc33759e03",
+            "bucketId": "31c8a589-e8ff-4f3e-a9b8-776ecaac0354",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "WROTE",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "isActivated": true,
+            "childCardinality": "1",
+            "GUID": "16b332f0-04c9-4ecf-b958-832d7dd4e333",
+            "level": "entity",
+            "parentCollection": "577825cd-19ab-4790-b173-a61db2d05e71",
+            "childCollection": "70760b5e-f7b1-4e48-875f-aadc33759e03",
+            "bucketId": "31c8a589-e8ff-4f3e-a9b8-776ecaac0354",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "WROTE",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "isActivated": true,
+            "childCardinality": "1",
+            "GUID": "d0ef9a73-20d0-4447-970c-02bd6725a1c9",
+            "level": "entity",
+            "parentCollection": "088143b3-2a95-4352-b4f1-c4936901639e",
+            "childCollection": "70760b5e-f7b1-4e48-875f-aadc33759e03",
+            "bucketId": "31c8a589-e8ff-4f3e-a9b8-776ecaac0354",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "FOLLOWS",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "isActivated": true,
+            "childCardinality": "1",
+            "GUID": "809d90d6-2a7d-478e-8eba-04a675a297ca",
+            "level": "entity",
+            "parentCollection": "577825cd-19ab-4790-b173-a61db2d05e71",
+            "childCollection": "577825cd-19ab-4790-b173-a61db2d05e71",
+            "bucketId": "31c8a589-e8ff-4f3e-a9b8-776ecaac0354",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "DIRECTED",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "isActivated": true,
+            "childCardinality": "1",
+            "GUID": "c9621cbf-10b9-4b1f-b4c7-359b06f65a00",
+            "level": "entity",
+            "parentCollection": "c81c9407-7593-4101-b96d-df9002fd31d3",
+            "childCollection": "70760b5e-f7b1-4e48-875f-aadc33759e03",
+            "bucketId": "31c8a589-e8ff-4f3e-a9b8-776ecaac0354",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "DIRECTED",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "isActivated": true,
+            "childCardinality": "1",
+            "GUID": "5affb352-1766-4c5b-8904-60df0145aa03",
+            "level": "entity",
+            "parentCollection": "088143b3-2a95-4352-b4f1-c4936901639e",
+            "childCollection": "70760b5e-f7b1-4e48-875f-aadc33759e03",
+            "bucketId": "31c8a589-e8ff-4f3e-a9b8-776ecaac0354",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "DIRECTED",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "isActivated": true,
+            "childCardinality": "1",
+            "GUID": "e5806af6-aa48-4911-b0cd-84139088e944",
+            "level": "entity",
+            "parentCollection": "577825cd-19ab-4790-b173-a61db2d05e71",
+            "childCollection": "70760b5e-f7b1-4e48-875f-aadc33759e03",
+            "bucketId": "31c8a589-e8ff-4f3e-a9b8-776ecaac0354",
+            "lineSize": 2,
+            "properties": []
+        }
+    ],
+    "users": [],
+    "diagramViews": [],
+    "idToNameHashTable": {
+        "31c8a589-e8ff-4f3e-a9b8-776ecaac0354": "movie",
+        "ea71003c-12ad-4f23-bd9b-e696ee73dc23": "born",
+        "cb0bceca-9bb1-4225-a53b-feaba387e686": "name",
+        "577825cd-19ab-4790-b173-a61db2d05e71": "Person",
+        "29cc6775-9989-4596-907d-1e9b24c814f2": "born",
+        "f3ce5ec1-4df6-4380-8a8b-e03a0d11d8aa": "name",
+        "c81c9407-7593-4101-b96d-df9002fd31d3": "Director",
+        "65d2c24b-e0c2-447a-9f1e-a8466fd444ce": "tagline",
+        "f4b4c8c4-9e5a-423b-b8da-97b5c475c034": "title",
+        "65f3d343-1bd2-4ed9-85b9-2befdec94609": "released",
+        "70760b5e-f7b1-4e48-875f-aadc33759e03": "Movie",
+        "822d2b9f-ea3a-477c-8151-d4cfa77d7dc4": "born",
+        "d409aec9-ce27-48ed-9932-96cefad9cfc5": "name",
+        "088143b3-2a95-4352-b4f1-c4936901639e": "Actor",
+        "e7aaafb2-3e2a-4f88-a9d4-3dc0338f2b74": "ACTED_IN",
+        "d4824003-ddf6-4573-ad73-b4048027ec94": "ACTED_IN",
+        "c831cc92-d90d-460a-ae23-1b9b0de5b7bd": "ACTED_IN",
+        "18894013-5d7b-43ea-b800-aaecdb4713ee": "REVIEWED",
+        "5c0e2d28-de66-4418-ba22-29ec91990b61": "PRODUCED",
+        "f664127e-3df1-4656-ae23-ca82f037f781": "PRODUCED",
+        "fd858ab7-ec3f-416e-a7a5-93fbc496a266": "WROTE",
+        "16b332f0-04c9-4ecf-b958-832d7dd4e333": "WROTE",
+        "d0ef9a73-20d0-4447-970c-02bd6725a1c9": "WROTE",
+        "809d90d6-2a7d-478e-8eba-04a675a297ca": "FOLLOWS",
+        "c9621cbf-10b9-4b1f-b4c7-359b06f65a00": "DIRECTED",
+        "5affb352-1766-4c5b-8904-60df0145aa03": "DIRECTED",
+        "e5806af6-aa48-4911-b0cd-84139088e944": "DIRECTED",
+        "caf80ff6-8b55-46cf-b90f-f2c2663d9eaf": "roles",
+        "8342060f-70ab-4580-a761-07cc80f5c7a6": "roles",
+        "94149597-196e-4a84-984e-961e91c7609f": "roles",
+        "9c207c0b-7482-4b5e-91f7-a6ba7d941607": "summary",
+        "a7200353-6f1c-4bf2-8206-73a3d8334c56": "rating"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "489614cc-7320-4553-a5b2-ec772b782b4f"
+    },
+    "polyglotDefinitions": {
+        "type": "polyglotDefinitions",
+        "properties": [],
+        "GUID": "8a3918bc-dbe6-4005-af19-7d70a9fb1c35"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "0f53112d-3b41-4bb7-9d49-f5cce324ef58"
+    },
+    "sources": [],
+    "decorativeSymbols": [],
+    "dbVersion": "5.x",
+    "dbVendor": "Neo4j",
+    "appTarget": "NEO4J",
+    "creationTS": "2024-09-12T08:13:26.072Z",
+    "GUID": "ff823b7c-1d5b-4e2d-96fe-0eb381d97f71",
+    "isLineageEnabled": false,
+    "lastModifTS": "2024-09-12T08:14:06.666Z",
+    "persistenceSchemaVersion": "7",
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginName": "Neo4j",
+        "pluginVersion": "0.2.2",
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "7.7.7"
+    },
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "577825cd-19ab-4790-b173-a61db2d05e71",
+                        "x": 3020,
+                        "y": 1050,
+                        "width": 250,
+                        "height": 75,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "c81c9407-7593-4101-b96d-df9002fd31d3",
+                        "x": 2035,
+                        "y": 1605,
+                        "width": 250,
+                        "height": 75,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "70760b5e-f7b1-4e48-875f-aadc33759e03",
+                        "x": 2035,
+                        "y": 1220,
+                        "width": 250,
+                        "height": 75,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "088143b3-2a95-4352-b4f1-c4936901639e",
+                        "x": 1050,
+                        "y": 1050,
+                        "width": 250,
+                        "height": 75,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "e7aaafb2-3e2a-4f88-a9d4-3dc0338f2b74",
+                        "x": 1055,
+                        "y": 1195,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "d4824003-ddf6-4573-ad73-b4048027ec94",
+                        "x": 2695,
+                        "y": 1050,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "c831cc92-d90d-460a-ae23-1b9b0de5b7bd",
+                        "x": 1385,
+                        "y": 1290,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "18894013-5d7b-43ea-b800-aaecdb4713ee",
+                        "x": 2695,
+                        "y": 1560,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "5c0e2d28-de66-4418-ba22-29ec91990b61",
+                        "x": 2695,
+                        "y": 1390,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "f664127e-3df1-4656-ae23-ca82f037f781",
+                        "x": 2040,
+                        "y": 1435,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "fd858ab7-ec3f-416e-a7a5-93fbc496a266",
+                        "x": 2370,
+                        "y": 1290,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "16b332f0-04c9-4ecf-b958-832d7dd4e333",
+                        "x": 2695,
+                        "y": 1730,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "d0ef9a73-20d0-4447-970c-02bd6725a1c9",
+                        "x": 1055,
+                        "y": 1535,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "809d90d6-2a7d-478e-8eba-04a675a297ca",
+                        "x": 3355,
+                        "y": 1050,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "c9621cbf-10b9-4b1f-b4c7-359b06f65a00",
+                        "x": 1710,
+                        "y": 1290,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "5affb352-1766-4c5b-8904-60df0145aa03",
+                        "x": 1055,
+                        "y": 1365,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "e5806af6-aa48-4911-b0cd-84139088e944",
+                        "x": 2695,
+                        "y": 1220,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    }
+                ],
+                "erdDefinitions": {
+                    "erd": [],
+                    "rootPath": [],
+                    "entities": [],
+                    "decorativeSymbols": []
+                },
+                "buckets": [
+                    {
+                        "x": 1010,
+                        "y": 1010,
+                        "GUID": "31c8a589-e8ff-4f3e-a9b8-776ecaac0354"
+                    }
+                ],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [
+                        {
+                            "GUID": "577825cd-19ab-4790-b173-a61db2d05e71",
+                            "size": 100,
+                            "x": 1300,
+                            "y": 1300
+                        },
+                        {
+                            "GUID": "c81c9407-7593-4101-b96d-df9002fd31d3",
+                            "size": 100,
+                            "x": 1050,
+                            "y": 1100
+                        },
+                        {
+                            "GUID": "70760b5e-f7b1-4e48-875f-aadc33759e03",
+                            "size": 100,
+                            "x": 1050,
+                            "y": 1350
+                        },
+                        {
+                            "GUID": "088143b3-2a95-4352-b4f1-c4936901639e",
+                            "size": 100,
+                            "x": 1500,
+                            "y": 1050
+                        }
+                    ],
+                    "buckets": [
+                        {
+                            "x": 40,
+                            "y": 40,
+                            "GUID": "31c8a589-e8ff-4f3e-a9b8-776ecaac0354"
+                        }
+                    ],
+                    "decorativeSymbols": [],
+                    "forceLayout": true,
+                    "defaultLinkLength": 400
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": [],
+                "relationshipUpdateDisabled": false,
+                "displayOptions": {}
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "shouldDistributeCollections": false
+        }
+    }
+}
